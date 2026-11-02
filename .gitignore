@@ -1,0 +1,23 @@
+# 本地部署配置
+.openai/
+
+# 环境变量和凭据
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# 依赖和临时文件
+node_modules/
+*.log
+coverage/
+outputs/
+*.tar.gz
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 个人课表备份
+课序备份-*.json
